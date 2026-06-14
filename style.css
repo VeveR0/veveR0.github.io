@@ -6,7 +6,7 @@
 
         body {
             font-family: "Segoe UI", sans-serif;
-            background: #0f172a;
+            background: #353313;
             color: white;
             line-height: 1.6;
         }
@@ -48,22 +48,22 @@
         .btn {
             text-decoration: none;
             color: white;
-            background: #2563eb;
+            background: #6b5f1a;
             padding: 12px 24px;
             border-radius: 10px;
             transition: 0.2s;
         }
 
         .btn:hover {
-            background: #1d4ed8;
+            background: #7a6c1f;
         }
 
         .btn.secondary {
-            background: #1e293b;
+            background: #2a2816;
         }
 
         .btn.secondary:hover {
-            background: #334155;
+            background: #3a361e;
         }
 
         /* PROJECTS */
@@ -81,12 +81,14 @@
             display: flex;
             gap: 2rem;
 
-            background: #1e293b;
+            background: #2f2c18;
             border-radius: 16px;
             overflow: hidden;
 
             margin-bottom: 2rem;
             transition: transform 0.2s;
+
+            border: 1px solid #3a361e;
         }
 
         .project-card:hover {
@@ -131,7 +133,7 @@
         }
 
         .project-info p {
-            color: #cbd5e1;
+            color: #d6cfaa;
             margin-bottom: 1rem;
         }
 
@@ -143,7 +145,7 @@
         }
 
         .tag {
-            background: #334155;
+            background: #3a351f;
             padding: 6px 12px;
             border-radius: 999px;
             font-size: .9rem;
@@ -167,4 +169,12 @@
             .project-video {
                 min-width: auto;
             }
+        }
+
+        a {
+            color: #d4c46a;
+        }
+
+        a:hover {
+            color: #f0e28c;
         }
