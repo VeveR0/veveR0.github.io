@@ -49,8 +49,17 @@
             text-decoration: none;
             color: white;
             background: #6b5f1a;
-            padding: 12px 24px;
+            padding: 15px 18px;
             border-radius: 10px;
+            transition: 0.2s;
+        }
+
+        .btn-audio {
+            text-decoration: none;
+            color: white;
+            background: gainsboro;
+            padding: 15px 18px;
+            border-radius: 100%;
             transition: 0.2s;
         }
 
