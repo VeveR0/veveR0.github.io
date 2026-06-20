@@ -129,7 +129,7 @@
 
         .project-info h3 {
             font-size: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0rem;
         }
 
         .project-info p {
@@ -177,4 +177,16 @@
 
         a:hover {
             color: #f0e28c;
+        }
+
+
+        @font-face {
+            font-family: "PhantomRunes";
+            src: url("./fonts/PhantomRunes.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+            }
+        
+        .slender{
+            font-family: "PhantomRunes", sans-serif
         }
