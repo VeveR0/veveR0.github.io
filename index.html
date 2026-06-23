@@ -80,7 +80,7 @@
                         <a href="https://github.com/VeveR0/ISS-Project" class="btn" title="GitHub">
                             <img src="Icons/GitHubWhite.ico" height="30" class="btn-icon" alt="GitHub">
                         </a>
-                        <div class="btn-audio" title="Video has audio">
+                        <div class="btn-audio" title="Video has audio" onclick="toggleAudio(this)">
                             <img src="Icons/Speaker.ico" height="30" class="btn-icon" alt="Speaker">
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                         <a href="https://github.com/VeveR0/Sx2_-_The_power_of_emancipation_modified" class="btn" title="GitHub">
                             <img src="Icons/GitHubWhite.ico" height="30" class="btn-icon" alt="GitHub">
                         </a>
-                        <div class="btn-audio" title="Video has audio">
+                        <div class="btn-audio" title="Video has audio" onclick="toggleAudio(this)">
                             <img src="Icons/Speaker.ico" height="30" class="btn-icon" alt="Speaker">
                         </div>
                     </div>
@@ -217,5 +217,11 @@
 
 
     </section>
+    <script>
+        function toggleAudio(button) {
+            const video = button.closest('.project-card').querySelector('video');
+            video.muted = !video.muted;
+        }
+    </script>
 </body>
 </html>
